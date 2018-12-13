@@ -8,13 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		32428E4D21BE522F005617F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E4C21BE522F005617F4 /* AppDelegate.m */; };
-		32428E5021BE522F005617F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E4F21BE522F005617F4 /* ViewController.m */; };
-		32428E5321BE522F005617F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32428E5121BE522F005617F4 /* Main.storyboard */; };
 		32428E5521BE5231005617F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32428E5421BE5231005617F4 /* Assets.xcassets */; };
 		32428E5821BE5231005617F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32428E5621BE5231005617F4 /* LaunchScreen.storyboard */; };
 		32428E5B21BE5231005617F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E5A21BE5231005617F4 /* main.m */; };
 		32428E6521BE5231005617F4 /* WGChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E6421BE5231005617F4 /* WGChatTests.m */; };
 		32428E7021BE5231005617F4 /* WGChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E6F21BE5231005617F4 /* WGChatUITests.m */; };
+		32428E7F21BE529E005617F4 /* HuChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E7E21BE529E005617F4 /* HuChatListViewController.m */; };
+		32428E8221BE535B005617F4 /* HuSingleChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E8121BE535B005617F4 /* HuSingleChatViewController.m */; };
+		32428E8621BF516F005617F4 /* HuKeyBoardGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E8521BF516F005617F4 /* HuKeyBoardGroundView.m */; };
+		32428E8921BF58FA005617F4 /* HuKeyBoardStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E8821BF58FA005617F4 /* HuKeyBoardStatus.m */; };
+		32428E8E21BF6385005617F4 /* HuDeviceDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E8D21BF6385005617F4 /* HuDeviceDefault.m */; };
+		32428E9121BF66C1005617F4 /* UIView+SSAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E8F21BF66C0005617F4 /* UIView+SSAdd.m */; };
+		32428E9421BF8C94005617F4 /* UUProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E9321BF8C94005617F4 /* UUProgressHUD.m */; };
+		32428E9B21BFB8EE005617F4 /* HuChatMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E9A21BFB8EE005617F4 /* HuChatMessageModel.m */; };
+		32428E9E21BFBABF005617F4 /* HuChatMessageConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428E9D21BFBABF005617F4 /* HuChatMessageConfig.m */; };
+		32428EA521BFBF12005617F4 /* NSObject+SSAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EA121BFBF12005617F4 /* NSObject+SSAdd.m */; };
+		32428EA621BFBF12005617F4 /* UIImage+SSAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EA221BFBF12005617F4 /* UIImage+SSAdd.m */; };
+		32428EA721BFBF12005617F4 /* NSTimer+SSAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EA421BFBF12005617F4 /* NSTimer+SSAdd.m */; };
+		32428EAA21C1F0B1005617F4 /* HuChatMessageLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EA921C1F0B1005617F4 /* HuChatMessageLayout.m */; };
+		32428EAD21C1F81D005617F4 /* HuBaseChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EAC21C1F81D005617F4 /* HuBaseChatTableViewCell.m */; };
+		32428EB321C1FA1C005617F4 /* HuTextChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EB221C1FA1C005617F4 /* HuTextChatTableViewCell.m */; };
+		32428EB621C1FB2D005617F4 /* HuImageChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EB521C1FB2D005617F4 /* HuImageChatTableViewCell.m */; };
+		32428EB921C1FC23005617F4 /* HuVedioChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EB821C1FC23005617F4 /* HuVedioChatTableViewCell.m */; };
+		32428EBC21C1FC61005617F4 /* HuVoiceChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EBB21C1FC61005617F4 /* HuVoiceChatTableViewCell.m */; };
+		32428EC221C1FD72005617F4 /* UUAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EC121C1FD72005617F4 /* UUAVAudioPlayer.m */; };
+		32428EC521C1FFC0005617F4 /* HuDealChatMessageHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EC421C1FFC0005617F4 /* HuDealChatMessageHelp.m */; };
+		32428EC821C24361005617F4 /* HuAddPhotoHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 32428EC721C24361005617F4 /* HuAddPhotoHelp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +57,6 @@
 		32428E4821BE522F005617F4 /* WGChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32428E4B21BE522F005617F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32428E4C21BE522F005617F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		32428E4E21BE522F005617F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		32428E4F21BE522F005617F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		32428E5221BE522F005617F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32428E5421BE5231005617F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32428E5721BE5231005617F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32428E5921BE5231005617F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +67,49 @@
 		32428E6B21BE5231005617F4 /* WGChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32428E6F21BE5231005617F4 /* WGChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGChatUITests.m; sourceTree = "<group>"; };
 		32428E7121BE5231005617F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32428E7D21BE529E005617F4 /* HuChatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuChatListViewController.h; sourceTree = "<group>"; };
+		32428E7E21BE529E005617F4 /* HuChatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuChatListViewController.m; sourceTree = "<group>"; };
+		32428E8021BE535B005617F4 /* HuSingleChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuSingleChatViewController.h; sourceTree = "<group>"; };
+		32428E8121BE535B005617F4 /* HuSingleChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuSingleChatViewController.m; sourceTree = "<group>"; };
+		32428E8421BF516F005617F4 /* HuKeyBoardGroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuKeyBoardGroundView.h; sourceTree = "<group>"; };
+		32428E8521BF516F005617F4 /* HuKeyBoardGroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuKeyBoardGroundView.m; sourceTree = "<group>"; };
+		32428E8721BF58FA005617F4 /* HuKeyBoardStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuKeyBoardStatus.h; sourceTree = "<group>"; };
+		32428E8821BF58FA005617F4 /* HuKeyBoardStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuKeyBoardStatus.m; sourceTree = "<group>"; };
+		32428E8A21BF61BD005617F4 /* HuChatGlobleDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuChatGlobleDefine.h; sourceTree = "<group>"; };
+		32428E8C21BF6385005617F4 /* HuDeviceDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuDeviceDefault.h; sourceTree = "<group>"; };
+		32428E8D21BF6385005617F4 /* HuDeviceDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuDeviceDefault.m; sourceTree = "<group>"; };
+		32428E8F21BF66C0005617F4 /* UIView+SSAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SSAdd.m"; sourceTree = "<group>"; };
+		32428E9021BF66C1005617F4 /* UIView+SSAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SSAdd.h"; sourceTree = "<group>"; };
+		32428E9221BF8C93005617F4 /* UUProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUProgressHUD.h; sourceTree = "<group>"; };
+		32428E9321BF8C94005617F4 /* UUProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUProgressHUD.m; sourceTree = "<group>"; };
+		32428E9921BFB8EE005617F4 /* HuChatMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuChatMessageModel.h; sourceTree = "<group>"; };
+		32428E9A21BFB8EE005617F4 /* HuChatMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuChatMessageModel.m; sourceTree = "<group>"; };
+		32428E9C21BFBABF005617F4 /* HuChatMessageConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuChatMessageConfig.h; sourceTree = "<group>"; };
+		32428E9D21BFBABF005617F4 /* HuChatMessageConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuChatMessageConfig.m; sourceTree = "<group>"; };
+		32428E9F21BFBF11005617F4 /* UIImage+SSAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SSAdd.h"; sourceTree = "<group>"; };
+		32428EA021BFBF12005617F4 /* NSTimer+SSAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+SSAdd.h"; sourceTree = "<group>"; };
+		32428EA121BFBF12005617F4 /* NSObject+SSAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SSAdd.m"; sourceTree = "<group>"; };
+		32428EA221BFBF12005617F4 /* UIImage+SSAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SSAdd.m"; sourceTree = "<group>"; };
+		32428EA321BFBF12005617F4 /* NSObject+SSAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SSAdd.h"; sourceTree = "<group>"; };
+		32428EA421BFBF12005617F4 /* NSTimer+SSAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+SSAdd.m"; sourceTree = "<group>"; };
+		32428EA821C1F0B1005617F4 /* HuChatMessageLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuChatMessageLayout.h; sourceTree = "<group>"; };
+		32428EA921C1F0B1005617F4 /* HuChatMessageLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuChatMessageLayout.m; sourceTree = "<group>"; };
+		32428EAB21C1F81D005617F4 /* HuBaseChatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuBaseChatTableViewCell.h; sourceTree = "<group>"; };
+		32428EAC21C1F81D005617F4 /* HuBaseChatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuBaseChatTableViewCell.m; sourceTree = "<group>"; };
+		32428EB121C1FA1C005617F4 /* HuTextChatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuTextChatTableViewCell.h; sourceTree = "<group>"; };
+		32428EB221C1FA1C005617F4 /* HuTextChatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuTextChatTableViewCell.m; sourceTree = "<group>"; };
+		32428EB421C1FB2D005617F4 /* HuImageChatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuImageChatTableViewCell.h; sourceTree = "<group>"; };
+		32428EB521C1FB2D005617F4 /* HuImageChatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuImageChatTableViewCell.m; sourceTree = "<group>"; };
+		32428EB721C1FC23005617F4 /* HuVedioChatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuVedioChatTableViewCell.h; sourceTree = "<group>"; };
+		32428EB821C1FC23005617F4 /* HuVedioChatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuVedioChatTableViewCell.m; sourceTree = "<group>"; };
+		32428EBA21C1FC61005617F4 /* HuVoiceChatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuVoiceChatTableViewCell.h; sourceTree = "<group>"; };
+		32428EBB21C1FC61005617F4 /* HuVoiceChatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuVoiceChatTableViewCell.m; sourceTree = "<group>"; };
+		32428EC021C1FD71005617F4 /* UUAVAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUAVAudioPlayer.h; sourceTree = "<group>"; };
+		32428EC121C1FD72005617F4 /* UUAVAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUAVAudioPlayer.m; sourceTree = "<group>"; };
+		32428EC321C1FFC0005617F4 /* HuDealChatMessageHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuDealChatMessageHelp.h; sourceTree = "<group>"; };
+		32428EC421C1FFC0005617F4 /* HuDealChatMessageHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuDealChatMessageHelp.m; sourceTree = "<group>"; };
+		32428EC621C24361005617F4 /* HuAddPhotoHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuAddPhotoHelp.h; sourceTree = "<group>"; };
+		32428EC721C24361005617F4 /* HuAddPhotoHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuAddPhotoHelp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +160,11 @@
 		32428E4A21BE522F005617F4 /* WGChat */ = {
 			isa = PBXGroup;
 			children = (
+				32428E9521BFB78C005617F4 /* HuChat */,
+				32428E8B21BF62F1005617F4 /* HuChatCommonFiles */,
+				32428E8321BF4F3A005617F4 /* HuKeyBoard */,
 				32428E4B21BE522F005617F4 /* AppDelegate.h */,
 				32428E4C21BE522F005617F4 /* AppDelegate.m */,
-				32428E4E21BE522F005617F4 /* ViewController.h */,
-				32428E4F21BE522F005617F4 /* ViewController.m */,
-				32428E5121BE522F005617F4 /* Main.storyboard */,
 				32428E5421BE5231005617F4 /* Assets.xcassets */,
 				32428E5621BE5231005617F4 /* LaunchScreen.storyboard */,
 				32428E5921BE5231005617F4 /* Info.plist */,
@@ -130,6 +189,94 @@
 				32428E7121BE5231005617F4 /* Info.plist */,
 			);
 			path = WGChatUITests;
+			sourceTree = "<group>";
+		};
+		32428E8321BF4F3A005617F4 /* HuKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				32428E8421BF516F005617F4 /* HuKeyBoardGroundView.h */,
+				32428E8521BF516F005617F4 /* HuKeyBoardGroundView.m */,
+				32428E8721BF58FA005617F4 /* HuKeyBoardStatus.h */,
+				32428E8821BF58FA005617F4 /* HuKeyBoardStatus.m */,
+			);
+			path = HuKeyBoard;
+			sourceTree = "<group>";
+		};
+		32428E8B21BF62F1005617F4 /* HuChatCommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				32428EC021C1FD71005617F4 /* UUAVAudioPlayer.h */,
+				32428EC121C1FD72005617F4 /* UUAVAudioPlayer.m */,
+				32428EA321BFBF12005617F4 /* NSObject+SSAdd.h */,
+				32428EA121BFBF12005617F4 /* NSObject+SSAdd.m */,
+				32428EA021BFBF12005617F4 /* NSTimer+SSAdd.h */,
+				32428EA421BFBF12005617F4 /* NSTimer+SSAdd.m */,
+				32428E9F21BFBF11005617F4 /* UIImage+SSAdd.h */,
+				32428EA221BFBF12005617F4 /* UIImage+SSAdd.m */,
+				32428E9021BF66C1005617F4 /* UIView+SSAdd.h */,
+				32428E8F21BF66C0005617F4 /* UIView+SSAdd.m */,
+				32428E8A21BF61BD005617F4 /* HuChatGlobleDefine.h */,
+				32428E8C21BF6385005617F4 /* HuDeviceDefault.h */,
+				32428E8D21BF6385005617F4 /* HuDeviceDefault.m */,
+				32428E9221BF8C93005617F4 /* UUProgressHUD.h */,
+				32428E9321BF8C94005617F4 /* UUProgressHUD.m */,
+				32428EC621C24361005617F4 /* HuAddPhotoHelp.h */,
+				32428EC721C24361005617F4 /* HuAddPhotoHelp.m */,
+			);
+			path = HuChatCommonFiles;
+			sourceTree = "<group>";
+		};
+		32428E9521BFB78C005617F4 /* HuChat */ = {
+			isa = PBXGroup;
+			children = (
+				32428E9821BFB7BF005617F4 /* HuChatViewControllers */,
+				32428E9721BFB7B1005617F4 /* HuChatViews */,
+				32428E9621BFB79E005617F4 /* HuChatmodels */,
+			);
+			path = HuChat;
+			sourceTree = "<group>";
+		};
+		32428E9621BFB79E005617F4 /* HuChatmodels */ = {
+			isa = PBXGroup;
+			children = (
+				32428E9921BFB8EE005617F4 /* HuChatMessageModel.h */,
+				32428E9A21BFB8EE005617F4 /* HuChatMessageModel.m */,
+				32428E9C21BFBABF005617F4 /* HuChatMessageConfig.h */,
+				32428E9D21BFBABF005617F4 /* HuChatMessageConfig.m */,
+				32428EA821C1F0B1005617F4 /* HuChatMessageLayout.h */,
+				32428EA921C1F0B1005617F4 /* HuChatMessageLayout.m */,
+				32428EC321C1FFC0005617F4 /* HuDealChatMessageHelp.h */,
+				32428EC421C1FFC0005617F4 /* HuDealChatMessageHelp.m */,
+			);
+			path = HuChatmodels;
+			sourceTree = "<group>";
+		};
+		32428E9721BFB7B1005617F4 /* HuChatViews */ = {
+			isa = PBXGroup;
+			children = (
+				32428EAB21C1F81D005617F4 /* HuBaseChatTableViewCell.h */,
+				32428EAC21C1F81D005617F4 /* HuBaseChatTableViewCell.m */,
+				32428EB121C1FA1C005617F4 /* HuTextChatTableViewCell.h */,
+				32428EB221C1FA1C005617F4 /* HuTextChatTableViewCell.m */,
+				32428EB421C1FB2D005617F4 /* HuImageChatTableViewCell.h */,
+				32428EB521C1FB2D005617F4 /* HuImageChatTableViewCell.m */,
+				32428EB721C1FC23005617F4 /* HuVedioChatTableViewCell.h */,
+				32428EB821C1FC23005617F4 /* HuVedioChatTableViewCell.m */,
+				32428EBA21C1FC61005617F4 /* HuVoiceChatTableViewCell.h */,
+				32428EBB21C1FC61005617F4 /* HuVoiceChatTableViewCell.m */,
+			);
+			path = HuChatViews;
+			sourceTree = "<group>";
+		};
+		32428E9821BFB7BF005617F4 /* HuChatViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				32428E7D21BE529E005617F4 /* HuChatListViewController.h */,
+				32428E7E21BE529E005617F4 /* HuChatListViewController.m */,
+				32428E8021BE535B005617F4 /* HuSingleChatViewController.h */,
+				32428E8121BE535B005617F4 /* HuSingleChatViewController.m */,
+			);
+			path = HuChatViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,8 +341,9 @@
 		32428E4021BE522F005617F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Hu;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = bozhong;
+				ORGANIZATIONNAME = WG;
 				TargetAttributes = {
 					32428E4721BE522F005617F4 = {
 						CreatedOnToolsVersion = 10.0;
@@ -237,7 +385,6 @@
 			files = (
 				32428E5821BE5231005617F4 /* LaunchScreen.storyboard in Resources */,
 				32428E5521BE5231005617F4 /* Assets.xcassets in Resources */,
-				32428E5321BE522F005617F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +409,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32428E5021BE522F005617F4 /* ViewController.m in Sources */,
+				32428E8621BF516F005617F4 /* HuKeyBoardGroundView.m in Sources */,
+				32428EC821C24361005617F4 /* HuAddPhotoHelp.m in Sources */,
+				32428EA521BFBF12005617F4 /* NSObject+SSAdd.m in Sources */,
 				32428E5B21BE5231005617F4 /* main.m in Sources */,
+				32428EC521C1FFC0005617F4 /* HuDealChatMessageHelp.m in Sources */,
+				32428E8E21BF6385005617F4 /* HuDeviceDefault.m in Sources */,
+				32428EB321C1FA1C005617F4 /* HuTextChatTableViewCell.m in Sources */,
+				32428EA721BFBF12005617F4 /* NSTimer+SSAdd.m in Sources */,
+				32428E8221BE535B005617F4 /* HuSingleChatViewController.m in Sources */,
+				32428E9121BF66C1005617F4 /* UIView+SSAdd.m in Sources */,
+				32428E9E21BFBABF005617F4 /* HuChatMessageConfig.m in Sources */,
+				32428E8921BF58FA005617F4 /* HuKeyBoardStatus.m in Sources */,
+				32428E7F21BE529E005617F4 /* HuChatListViewController.m in Sources */,
+				32428EBC21C1FC61005617F4 /* HuVoiceChatTableViewCell.m in Sources */,
+				32428EAA21C1F0B1005617F4 /* HuChatMessageLayout.m in Sources */,
+				32428EC221C1FD72005617F4 /* UUAVAudioPlayer.m in Sources */,
+				32428EA621BFBF12005617F4 /* UIImage+SSAdd.m in Sources */,
 				32428E4D21BE522F005617F4 /* AppDelegate.m in Sources */,
+				32428EB621C1FB2D005617F4 /* HuImageChatTableViewCell.m in Sources */,
+				32428EB921C1FC23005617F4 /* HuVedioChatTableViewCell.m in Sources */,
+				32428E9B21BFB8EE005617F4 /* HuChatMessageModel.m in Sources */,
+				32428E9421BF8C94005617F4 /* UUProgressHUD.m in Sources */,
+				32428EAD21C1F81D005617F4 /* HuBaseChatTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +467,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		32428E5121BE522F005617F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32428E5221BE522F005617F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		32428E5621BE5231005617F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +597,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
 				INFOPLIST_FILE = WGChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +615,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
 				INFOPLIST_FILE = WGChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
